@@ -10,7 +10,10 @@ def add_elem_to_list(list, elem):
 def delete_elem_from_list(list, index = -1):
     # delete element from list, such that its index is index
     # if index is invalid, return empty list
-    if(index<len(list)):
+    if(index == -1):
+        list.pop()
+        return list
+    elif(index<len(list)):
         list.pop(index)
         return list
     else:

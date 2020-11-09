@@ -5,6 +5,3 @@ def insert_squares(arr, num):
         arr.append(i*i)
         i = i + 1
     return arr
-
-
-print(insert_squares([1, 2, 3],5))
