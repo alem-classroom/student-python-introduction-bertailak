@@ -1,3 +1,5 @@
+import random
+
 def size_of_list(list):
     # return size of list
     return len(list)
@@ -28,6 +30,3 @@ def sort_list(list):
 def reverse(list):
     # return reversed list
     return list.reverse()
-
-
-print(delete_elem_from_list([1, 2, 3], -2))
