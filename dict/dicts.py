@@ -1,6 +1,7 @@
 def clear_dict(dict):
     # delete everything in dict and return it
-    return dict.clear()
+    dict = {}
+    return dict
 
 def get_dict_items(dict):
     # return keys and values of dict
@@ -18,3 +19,5 @@ def delete_dict_element_by_key(dict, key):
     # delete and element from dict, such that its key is the argument key
     dict.pop(key)
     return dict
+
+#print(clear_dict({}))
