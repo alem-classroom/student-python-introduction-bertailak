@@ -1,5 +1,3 @@
-import random
-
 def size_of_list(list):
     # return size of list
     return len(list)
@@ -13,8 +11,7 @@ def delete_elem_from_list(list, index = -1):
     # delete element from list, such that its index is index
     # if index is invalid, return empty list
     if(-len(list)<=index<len(list)):
-        list.pop(index)
-        return list
+        return list.pop(index)
     else:
         return []
     
@@ -31,4 +28,7 @@ def reverse(list):
     # return reversed list
     return list.reverse()
 
-#print(delete_elem_from_list([1, 2, 3], 4))
+#print(delete_elem_from_list([1, 2, 3], 1))
+#print(count_elements_in_list([1, 2, 3, 1], 1))
+
+#print(size_of_list([1, 2, 3, 1]))
