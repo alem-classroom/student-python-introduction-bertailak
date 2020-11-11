@@ -22,7 +22,8 @@ def remove_elem_if_exists(set, elem):
 def delete_first_element(set):
     # delete first elemenent of set
     # set = sorted(set)
-    return set.pop()
+    set.pop()
+    return set
 
 
-# print(delete_first_element({'e', 'a', 'u', 'o', 'i'}))
+#print(delete_first_element({'e', 'a', 'u', 'o', 'i'}))
