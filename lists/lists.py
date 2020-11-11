@@ -12,7 +12,7 @@ def add_elem_to_list(list, elem):
 def delete_elem_from_list(list, index = -1):
     # delete element from list, such that its index is index
     # if index is invalid, return empty list
-    if(index in range(-len(list), len(list))):
+    if(-len(list)<=index<len(list)):
         list.pop(index)
         return list
     else:
@@ -31,4 +31,4 @@ def reverse(list):
     # return reversed list
     return list.reverse()
 
-print(delete_elem_from_list([1, 2, 3], 4))
+#print(delete_elem_from_list([1, 2, 3], 4))
