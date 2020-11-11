@@ -20,4 +20,4 @@ def delete_dict_element_by_key(dict, key):
     dict.pop(key)
     return dict
 
-#print(clear_dict({}))
+#print(get_dict_keys({2:1, 1:3}))
