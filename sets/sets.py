@@ -25,4 +25,4 @@ def delete_first_element(set):
     return set.pop()
 
 
-print(delete_first_element({'e', 'a', 'u', 'o', 'i'}))
+#print(delete_first_element({'e', 'a', 'u', 'o', 'i'}))
