@@ -9,7 +9,7 @@ def get_dict_items(dict):
 
 def get_dict_keys(dict):
     # return keys of dict
-    dict.pop(0)
+    #dict.pop(0)
     return dict.keys()
 
 def get_dict_value_by_key(dict, key):
@@ -22,3 +22,4 @@ def delete_dict_element_by_key(dict, key):
     return dict
 
 #print(get_dict_keys({0:'a', 'name': 'John', 1: [2, 4, 3]}))
+#print(delete_dict_element_by_key({0:'a', 'name': 'John', 1: [2, 4, 3]}, 0))
