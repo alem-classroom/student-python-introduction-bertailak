@@ -14,7 +14,8 @@ def get_dict_keys(dict):
 
 def get_dict_value_by_key(dict, key):
     # return values of dict that is stored in key
-    return dict[key]
+    if(dict.get(key)):
+        return dict[key]
 
 def delete_dict_element_by_key(dict, key):
     # delete and element from dict, such that its key is the argument key
@@ -22,4 +23,4 @@ def delete_dict_element_by_key(dict, key):
     return dict
 
 #print(get_dict_keys({0:'a', 'name': 'John', 1: [2, 4, 3]}))
-#print(delete_dict_element_by_key({0:'a', 'name': 'John', 1: [2, 4, 3]}, 0))
+#print(get_dict_value_by_key({0:'a', 'name': 'John', 1: [2, 4, 3]}, 2))
